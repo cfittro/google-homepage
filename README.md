@@ -1,0 +1,1 @@
+Re-creating the Google homepage, focusing on style rather than function. This should demonstrate skills with HTML/CSS as well as developer tools in Chrome.
