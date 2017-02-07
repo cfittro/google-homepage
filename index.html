@@ -5,16 +5,27 @@
 <head>
     <title>Google</title>
 <style>
-
+img {
+    height: 100px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.form {
+    margin: 0 auto;
+}
 </style>
 </head>
 
 <body>
     <img src="http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png" />
-    <form>
-        <input type="text" name="search string"></input><br>
-        <input type="submit" value="Google Search"></input>
-        <input type="submit" value="I'm Feeling Lucky"></input>
+    <div class="form">
+        <form action="" method="POST">
+            <input type="text" name="search string"></input><br>
+            <input type="submit" value="Google Search" class="buttons"></input>
+            <input type="submit" value="I'm Feeling Lucky" class="buttons"></input>
+        </form>
+    </div>
 </body>
 
 </hmtl>
