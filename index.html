@@ -11,19 +11,45 @@
     display: block;
     margin: 220px auto 40px auto;
 }
+.sbar {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
 .search_string {
     display: block;
     margin: 0 auto;
     width: 550px;
     height: 30px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08); 
 }
+/*
+.mic {
+    background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat -3px 0;
+    background-size: 24px 24px;
+    display: inline-block;
+    height: 23px;
+    width: 17px;
+    vertical-align: middle;
+    position: static;
+    float: right;
+}
+*/
 .search_buttons {
     display: block;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 .buttons {
     margin: 0 15px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font: arial;
+    color: #757575;
+    border: none;
+    background: none;
 }
 </style>
 </head>
@@ -31,7 +57,9 @@
 <body>
     <img src="http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png" class="logo"/>
     <form action="" method="POST">
-        <input type="text" name="search string" class="search_string"></input><br>
+        <div class="sbar">
+            <input type="text" name="search string" class="search_string"><span class="mic"></span></input><br>
+        </div>
         <div class="search_buttons">
             <input type="submit" value="Google Search" class="buttons"></input>
             <input type="button" value="I'm Feeling Lucky" class="buttons"></input>
