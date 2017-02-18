@@ -5,6 +5,35 @@
 <head>
     <title>Google</title>
 <style>
+.topbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: right;
+}
+.toplink {
+    display: inline;
+    font-family: Arial, Sans Serif;
+    font-size: 13px;
+    opacity: .75;
+    padding: 0 8px;
+}
+#text {
+    vertical-align: 7px;
+}
+.apps {
+    height: 22px;
+    width: 22px;
+}
+.notification {
+    height: 20px;
+    width: 20px;
+}
+.account {
+    height: 22px;
+    width: 22px;
+}
 .logo {
     height: 100px;
     width: 300px;
@@ -57,6 +86,13 @@
 </head>
 
 <body>
+    <ul class="topbar">
+        <li class="toplink" id="text">Gmail</li>
+        <li class="toplink" id="text">Images</li>
+        <li class="toplink"><img class="apps" src='http://www.englewoodschools.net/cms/lib8/CO01900647/Centricity/Domain/1009/GoogleAppsIcon.png'/></li>
+        <li class="toplink" id="bell"><img class="notification" src='https://cdn3.iconfinder.com/data/icons/fillies-medium/64/bell-512.png'/></li>
+        <li class="toplink"><img class="account" src='https://image.flaticon.com/icons/svg/61/61205.svg'/></li>
+    </ul>
     <img src="http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png" class="logo"/>
     <form action="" method="POST">
         <div class="sbar">
