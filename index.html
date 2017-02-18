@@ -7,7 +7,7 @@
 <style>
 .topbar {
     list-style-type: none;
-    margin: 0;
+    margin: 5 0;
     padding: 0;
     display: block;
     text-align: right;
@@ -15,12 +15,12 @@
 .toplink {
     display: inline;
     font-family: Arial, Sans Serif;
-    font-size: 13px;
+    font-size: 14px;
     opacity: .75;
     padding: 0 8px;
 }
 #text {
-    vertical-align: 7px;
+    vertical-align: 5px;
 }
 .apps {
     height: 22px;
@@ -82,6 +82,32 @@
     border: none;
     background: none;
 }
+.botbar {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    line-height: 44px;
+    border-top: 1px solid #e4e4e4;
+}
+.footer {
+    display: inline;
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    opacity: .75;
+    padding: 0 10px;
+}
+.leftfoot {
+    display: inline-block;
+    float: left;
+}
+.rightfoot {
+    display: inline-block;
+    float: right;
+}
 </style>
 </head>
 
@@ -103,6 +129,18 @@
             <input type="button" value="I'm Feeling Lucky" class="buttons"></input>
         </div>
     </form>
+    <ul class="botbar">
+        <div class="leftfoot">
+        <li class="footer">Advertising</li>
+        <li class="footer">Business</li>
+        <li class="footer">About</li>
+        </div>
+        <div class="rightfoot">
+        <li class="footer">Privacy</li>
+        <li class="footer">Terms</li>
+        <li class="footer">Settings</li>
+        </div>
+    </ul>
 </body>
 
 </hmtl>
